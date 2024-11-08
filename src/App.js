@@ -7,7 +7,7 @@ import Page2 from './Page2';
 
 const App = () => {
   const name = 'Bohdan';
-  const surname = 'Dudasj';
+  const surname = 'Dudash';
   const city = 'Uzhorod';
   const hobby = 'Car';
   const group = 'IST-3';
@@ -29,7 +29,7 @@ const App = () => {
         </ul>
       </nav>
       
-      {/* Update Switch to Routes and Route elements */}
+      
       <Routes>
         <Route path="/page1" element={<Page1 city={city} />} />
         <Route path="/page2" element={<Page2 hobby={hobby} />} />
